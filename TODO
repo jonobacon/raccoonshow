@@ -1,0 +1,5 @@
+TODO:
+
+* add error checking to make sure swftools is present
+* support other audio types such as ogg or mp3
+* make the presentation size configurable

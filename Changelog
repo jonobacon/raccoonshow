@@ -1,0 +1,20 @@
+RaccoonShow Changelog
+
+Version 0.6
+	Fixed the slide timing problems. RaccoonShow can now be considered 'production ready'.
+
+Version 0.5beta1
+	Fixed slide sizes 800x600
+	Fixed bug in slide timings
+	Fixed bug which crashed raccoonshow when there was a blank line in the timings file.
+
+Version 0.1:
+	First release of the command line version. This version has a
+	bug with the slide timings. See 
+http://lists.gnu.org/archive/html/swftools-common/2006-01/msg00038.html for details.
+
+
+
+> Contributing <
+
+Send patches to jono@jonobacon.org.

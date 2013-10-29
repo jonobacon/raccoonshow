@@ -1,0 +1,38 @@
+RaccoonShow README
+------------------
+Written by Jono Bacon
+
+> Requirements <
+
+Python
+swftools
+Ghostscript
+Lame
+
+* it is recommended that you use Ghostscript 8.14 or later. RaccoonShow has been tested with Ghostscript 7.07 and there were problems with PDF to JPG conversion. This problem appears to be fixed in later versions of Ghostscript.
+* lame is used by swftools when converting the WAV to an MP3
+
+> Using RaccoonShow <
+
+To use RaccoonShow, you will need:
+
+  * your presentation slides available as a PDF
+  * a recording of your talk in WAV format
+
+First load you WAV file into an audio editor and play it. Create a new file called timings.txt and note in the file the times when the slides change. Each time should be in the same order of the slides and each one on a new line. As an example:
+
+0.07
+1.10
+2.40
+3.54
+
+Now run the following commands:
+
+	raccoonshow -p yourslides.pdf -w youraudio.wav -t timings.txt
+
+Wait a minute or so and a Presentation.swf file is produced. Load this file into your browser and enjoy your presentation. :)
+
+For help on other features of RaccoonShow, run:
+
+  raccoonshow --help
+
